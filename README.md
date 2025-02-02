@@ -2,7 +2,9 @@ A robust backend system powering **Python Tutor**, an AI-driven Python learning 
 
 🚀 **Deployed on:**
 - **Netlify (Frontend)**: [Python Tutor Frontend](https://skc-sreyangshusarkar-funlearn.netlify.app/)
-- **Render (Backend)**: [Python Tutor Backend](https://github.com/sreyangshu05/Python_Tutor/tree/master)
+
+🚀 **Backend Github Repo:**
+- **Backend**: [Python Tutor Backend](https://github.com/sreyangshu05/Python_Tutor/tree/master)
 
 ---
 
