@@ -11,8 +11,7 @@ A robust backend system powering **Python Tutor**, an AI-driven Python learning 
 ## 🛠️ Features
 
 ✅ AI-powered Python tutoring  
-✅ RESTful API using Flask  
-✅ Secure user authentication with JWT  
+✅ RESTful API using Flask   
 ✅ Real-time responses via Google Gemini API    
 ✅ Fully scalable deployment on Render  
 
