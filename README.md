@@ -37,9 +37,9 @@ A robust backend system powering **Python Tutor**, an AI-driven Python learning 
 - POST -> /ask -> Get AI-powered Python responses
 
 ### 🛠️ Tech Stack
-Backend: Flask, Python
-Frontend: React
-Deployment: Render, Netlify
-AI Model: Google Gemini API
+- Backend: Flask, Python
+- Frontend: React
+- Deployment: Render, Netlify
+- AI Model: Google Gemini API
 
 
