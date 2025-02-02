@@ -1,7 +1,7 @@
 A robust backend system powering **Python Tutor**, an AI-driven Python learning assistant. This repository contains the core API, database management, and authentication services.
 
 🚀 **Deployed on:**
-- **Netlify (Frontend)**: [Python Tutor Frontend]((https://skc-sreyangshusarkar-funlearn.netlify.app/))
+- **Netlify (Frontend)**: [Python Tutor Frontend](https://skc-sreyangshusarkar-funlearn.netlify.app/)
 - **Render (Backend)**: [Python Tutor Backend](https://github.com/sreyangshu05/Python_Tutor/tree/master)
 
 ---
