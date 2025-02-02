@@ -1,0 +1,94 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 25px;
+  background: linear-gradient(90deg, #ff9800, #ff5722); /* Bright kid-friendly colors */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Brand / Logo */
+.navbar-brand .logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-family: 'Fredoka One', cursive;
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand .logo:hover {
+  transform: rotate(-5deg) scale(1.1);
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+/* Individual Navigation Item */
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-family: 'Comic Neue', cursive;
+  background: rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+/* Navigation Icons */
+.nav-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Hover Effect */
+.nav-item:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: translateY(-3px) rotate(2deg);
+}
+
+/* Active Link */
+.active {
+  background: rgba(255, 255, 255, 0.5);
+  border-bottom: 3px solid white;
+  font-weight: bold;
+  animation: pulse 0.5s infinite alternate;
+}
+
+/* Keyframe Animation for Active Link */
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    padding: 12px;
+  }
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .nav-item {
+    width: 100%;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Comic+Neue:wght@300;400;700&display=swap');
+
+/* Home Container */
+.home-container {
+    padding: 20px;
+    background: linear-gradient(135deg, #FFD700, #FF69B4);
+    min-height: 100vh;
+    font-family: 'Comic Neue', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Background Particles */
+.particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Hero Text */
+.hero-text {
+    flex: 1;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #00796b;
+    margin-bottom: 10px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.hero-text .highlight {
+    color: #FF4500;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    color: #004d40;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* List Styling */
+.hero-text ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hero-text li {
+    font-size: 1.3rem;
+    margin: 10px 0;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.hero-text li:hover {
+    transform: scale(1.1);
+    background: #fff;
+}
+
+/* Call-To-Action Button */
+.cta-button {
+    padding: 15px 30px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Fredoka One', cursive;
+}
+
+.cta-button:hover {
+    background-color: #d84c47;
+    transform: scale(1.1);
+}
+
+/* Hero Image */
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-text, .hero-image {
+        padding: 10px;
+    }
+}
