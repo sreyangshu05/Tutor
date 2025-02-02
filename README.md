@@ -1,8 +1,44 @@
-# React + Vite
+A robust backend system powering **Python Tutor**, an AI-driven Python learning assistant. This repository contains the core API, database management, and authentication services.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Deployed on:**
+- **Netlify (Frontend)**: [Python Tutor Frontend]((https://skc-sreyangshusarkar-funlearn.netlify.app/))
+- **Render (Backend)**: [Python Tutor Backend](https://github.com/sreyangshu05/Python_Tutor/tree/master)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Features
+
+✅ AI-powered Python tutoring  
+✅ RESTful API using Flask  
+✅ Secure user authentication with JWT  
+✅ Real-time responses via Google Gemini API    
+✅ Fully scalable deployment on Render  
+
+
+## 🚀 Installation & Setup
+
+### 1️⃣ Clone the Repository [For Backend]
+     ```bash
+     git clone https://github.com/sreyangshu05/Python_Tutor.git
+     cd Python_Tutor
+     pip install -r requirements.txt
+     python app.py
+
+### 1️⃣ Clone the Repository [For Frontend]
+      ```bash
+      git clone https://github.com/sreyangshu05/Tutor.git
+      cd Tutor
+      npm install
+      npm run dev
+
+
+### 🔥 API Endpoints:
+- POST -> /ask -> Get AI-powered Python responses
+
+### 🛠️ Tech Stack
+Backend: Flask, Python
+Frontend: React
+Deployment: Render, Netlify
+AI Model: Google Gemini API
+
+
